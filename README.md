@@ -30,6 +30,16 @@ What we expect from you:
 > [!NOTE]
 > We've **intentionally left some bugs/issues in the code**—happy debugging! 🥳
 
+### TODOs:
+
+- Add unit tests for the components
+- Use react query library to fetch the data from the backend
+- Fix hero icons loading to avoid flicker on virtualization
+- Fix icons desing to match the figma
+- Handle non supported currency use case
+- Add a generic empty/loading state component
+- Optimize queries: if dd not found then ddd won't be found neither
+
 ## Getting Started
 
 1. Fork and clone this repository.

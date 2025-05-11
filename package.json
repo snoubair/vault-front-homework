@@ -3,8 +3,11 @@
     "dev": "vite"
   },
   "dependencies": {
+    "@heroicons/react": "^2.2.0",
+    "@tanstack/react-virtual": "^3.13.8",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "use-debounce": "^10.0.4"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4.0.13",
@@ -16,5 +19,6 @@
     "typescript": "^5.8.2",
     "vite": "^6.2.1"
   },
-  "private": true
+  "private": true,
+  "packageManager": "pnpm@10.10.0+sha512.d615db246fe70f25dcfea6d8d73dee782ce23e2245e3c4f6f888249fb568149318637dca73c2c5c8ef2a4ca0d5657fb9567188bfab47f566d1ee6ce987815c39"
 }
